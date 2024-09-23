@@ -18,18 +18,20 @@ header{
     width: 60%;
     margin: auto;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .container-cards{
     margin-top: 30px;
     display: flex;
-    justify-content: center;
 }
 
 .row{
     display: flex;
-    align-content: flex-start;
     flex-wrap: wrap;
+    height: 80px;
 }
 
 .col{
@@ -37,7 +39,37 @@ header{
     width: calc(100%/3);
 }
 
-.col > div{
-    background-color: red;
+.col .card{
+    background-color: darkblue;
+    height: 80px;
 }
 
+.card{
+    display: flex;
+}
+img {
+    max-height: 100px;
+}
+
+.profile{
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 30px;
+    margin: auto 0;
+    list-style-type: none;
+    color: white;
+}
+
+.profile .name{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.job, .email{
+    font-size: 0.8rem;
+}
+
+.email a{
+    text-decoration: none;
+    color: lightskyblue;
+}
