@@ -15,7 +15,7 @@ header{
 }
 
 .main-container{
-    width: 60%;
+    width: 920px;
     margin: auto;
     text-align: center;
     display: flex;
@@ -40,13 +40,16 @@ header{
 }
 
 .col .card{
-    background-color: darkblue;
+    background-color: black;
     height: 80px;
+    box-shadow: -1px -1px 20px 0px rgba(0,0,0,0.69);
+
 }
 
 .card{
     display: flex;
 }
+
 img {
     max-height: 100px;
 }
