@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Fredoka", sans-serif;
+}
+
+header{
+    color: pink;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.main-container{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+.container-cards{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.row{
+    display: flex;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.col{
+    padding: 15px;
+    width: calc(100%/3);
+}
+
+.col > div{
+    background-color: red;
+}
+
